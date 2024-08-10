@@ -1,0 +1,58 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "First Book",
+      "author": "First Author",
+      "category_ids": [
+        101,
+        102
+      ],
+      "published_year": 2020
+    },
+    {
+      "id": "2",
+      "title": "Second Book",
+      "author": "Second Author",
+      "category_ids": [
+        102
+      ],
+      "published_year": 2018
+    },
+    {
+      "id": "3",
+      "title": "Third Book",
+      "author": "Third Author",
+      "category_ids": [
+        101
+      ],
+      "published_year": 2021
+    },
+    {
+      "id": "4",
+      "title": "Forth Book",
+      "author": "Forth Author",
+      "category_ids": [
+        103
+      ],
+      "published_year": 2001
+    }
+  ],
+  "categories": [
+    {
+      "id": "101",
+      "name": "Fiction",
+      "description": "Category for novels and long stories"
+    },
+    {
+      "id": "102",
+      "name": "History",
+      "description": "Books related to historical events"
+    },
+    {
+      "id": "103",
+      "name": "Science",
+      "description": "Books related to scientific research"
+    }
+  ]
+}
